@@ -5,7 +5,7 @@ export type TrademarkEvent = {
   detail: string;
 };
 
-type Trademark = {
+export type Trademark = {
   id: string;
   name: string;
   applicationNumber: string;
@@ -17,9 +17,5 @@ type Trademark = {
   filingDate: string;
   registrationDate: string;
   description: string;
-  events: {
-    date: string;
-    title: string;
-    detail: string;
-  }[];
+  events: TrademarkEvent[];
 };
