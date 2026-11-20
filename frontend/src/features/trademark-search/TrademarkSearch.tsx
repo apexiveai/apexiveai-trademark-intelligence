@@ -381,14 +381,14 @@ export default function TrademarkSearch() {
   );
 }
 
-function Detail({ label, value }: { label: string; value: string }) {
-  return (
-    <div className="tm-detail-field">
-      <span>{label}</span>
-      <strong>{value}</strong>
-    </div>
-  );
-}
+// function Detail({ label, value }: { label: string; value: string }) {
+//   return (
+//     <div className="tm-detail-field">
+//       <span>{label}</span>
+//       <strong>{value}</strong>
+//     </div>
+//   );
+// }
 
 function LayersIcon() {
   return <Hash size={15} />;
